@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>暴打灰太狼</title>
+    <script src="js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+
+</head>
+<body>
+    <!-- 作为页面容器 -->
+    <div class="container">
+        <!-- 作为显示分数 -->
+        <h1 class="score">0</h1>
+        <!-- 作为游戏时间进度条 -->
+        <div class="progress"></div>
+        <!-- 作为游戏开始按钮 -->
+        <button class="start">开始游戏</button>
+        <!-- 作为游戏规则显示 -->
+        <div class="rules">游戏规则</div>
+        <!-- 游戏规则界面 -->
+        <div class="rule">
+            <p>游戏规则：</p>
+            <p>1、游戏时长：60s</p>
+            <p>2、拼手速，殴打灰太狼+10分</p>
+            <p>3、殴打小灰灰-10分</p>
+            <a href="#" class="close">关闭</a>
+        </div>
+        <!-- 游戏结束界面 -->
+        <div class="mask">
+            <h1>GEME OVER</h1>
+            <button class="restart">重新开始</button>
+        </div>
+    </div>
+</body>
+</html>
